@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">restAPI_Hanlon</string>
+    <string name="title_main">Love Calculator</string>
+    <string name="first_name">First Name (ex: Ryan)</string>
+    <string name="other_name">Other Name</string>
+    <string name="calculate">Calculate!!</string>
+    <string name="percentage">Percentage: </string>
+    <string name="result">Result: </string>
+    <string name="result_great">WHOA!, You two are a great match!</string>
+    <string name="result_good">You two are a good match!</string>
+    <string name="result_average">You two are an average match</string>
+    <string name="result_poor">Not the greatest match</string>
+    <string name="result_terrible">You two are a terrible match, try again </string>
+
+
+
+
+</resources>

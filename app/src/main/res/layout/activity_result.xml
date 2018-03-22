@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="79dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="121dp"
+        android:fontFamily="cursive"
+        android:text="@string/percentage"
+        android:textColor="@color/title_main"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/percent_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/percent"
+        android:layout_toEndOf="@+id/percent"
+        android:layout_toRightOf="@+id/percent"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/percent"
+        android:layout_alignStart="@+id/percent"
+        android:layout_below="@+id/percent"
+        android:layout_marginTop="64dp"
+        android:fontFamily="cursive"
+        android:text="@string/result"
+        android:textColor="@color/title_main"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/result_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/result"
+        android:layout_alignBottom="@+id/result"
+        android:layout_toEndOf="@+id/result"
+        android:layout_toRightOf="@+id/result"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/love_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/result"
+        android:layout_alignStart="@+id/result"
+        android:layout_below="@+id/result"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/heart" />
+
+</RelativeLayout>
